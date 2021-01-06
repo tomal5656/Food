@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Food Website</title>
+	<!-- Favicon Link -->
+	<link rel="shortcut icon" type="image/x-icon" href="Custom/img/normal-devices.png">
+	<link rel="shortcut icon" type="image/x-icon" href="Custom/img/apple-divices.png">
+	<!-- Font Awesome Link -->
+	<script src="https://kit.fontawesome.com/a739d7064a.js" crossorigin="anonymous"></script>
+	<!-- Google Font Link -->
+	  <!-- Poppins Font All Link -->
+	  <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+	<!-- Custom File Link -->
+	<link rel="stylesheet" href="Custom/css/style.css">
+	<link rel="stylesheet" href="Custom/css/responsive.css">
+	<!-- Vendors File Link -->
+	<link rel="stylesheet" href="Vendors/css/gird.css">
+	<link rel="stylesheet" href="Vendors/css/normalize.css">
+	<link rel="stylesheet" href="Vendors/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="Vendors/css/owl.theme.default.min.css">
+	<!-- Animate Wow Cdn Link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<!-- Popup Image Gallery Cdn Link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css"/>
+  </head>
+  <body>
+  
+  <!-- START LOADING SECTION -->
+  
+  <div id="preloader">
+    <div id="status">
+	  <div class="ghost">
+	    <div class="face">
+		  <div class="eyes">
+		    <span></span><span></span>
+		  </div>
+		  <div class="mouth"></div>
+		</div>
+		<div class="hands">
+		  <span></span><span></span>
+		</div>
+		<div class="feet">
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		  <span></span>
+		</div>
+	  </div>
+	</div>
+  </div>
+  
+  <!-- END LOADING SECTION -->
+  
+  <!-- START HEADER SECTION -->
+  
+  <header id="home">
+    <nav>
+	  <div class="row">
+	    <a href="#home" class="logo">Food<span class="logo-color">.</span></a>
+		<ul class="main-nav">
+		  <li class="active"><a href="#home">Home</a></li>
+		  <li><a href="#about">About</a></li>
+		  <li><a href="#menu">Menu</a></li>
+		  <li><a href="#expert">Expert</a></li>
+		  <li><a href="#testimonial">Testimonial</a></li>
+		  <li><a href="#contact">Contact</a></li>
+		</ul>
+		<div class="mobile-menu">
+		  <span onclick="openNav()"><i class="fas fa-bars"></i></span>
+		  <div id="myNav" class="overlay">
+		    <a href="javascript:void(0)" onclick="closeNav()" class="closeBtn"><img src="Custom/img/close.png" alt="close"></a>
+			<div class="overlay-content">
+			  <a onclick="closeNav()" href="#home">Home</a>
+			  <a onclick="closeNav()" href="#about">About</a>
+			  <a onclick="closeNav()" href="#menu">Menu</a>
+			  <a onclick="closeNav()" href="#expert">Expert</a>
+			  <a onclick="closeNav()" href="#testimonial">Testimonial</a>
+			  <a onclick="closeNav()" href="#contact">Contact</a>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</nav>
+	<div class="row">
+	  <div class="hero-text-box">
+	    <h1 class="wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">Always Choose Good</h1>
+		<p class="wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</p>
+		<a href="#menu" class="btn btn-hero wow bounceInUp" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: bounceInUp;">Our Menu</a>
+	  </div>
+	</div>
+  </header>
+  
+  <!-- END HEADER SECTION -->
+  
+  <!-- START ABOUT SECTION -->
+  
+  <section class="about-section js--sticky-menu" id="about">
+    <div class="row">
+	  <div class="col span_1_of_2 wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+	    <div class="about-content">
+		  <h2 class="about-title"><span class="Title-text">A</span>bout Us</h2>
+		  <p class="first">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything.</p>
+		  <p class="tow">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+		</div>
+	  </div>
+	  <div class="col span_1_of_2 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+	    <div class="about-img">
+		  <img src="Custom/img/about.jpg" alt="about-img">
+		</div>
+	  </div>
+	</div>
+  </section>
+  
+  <!-- END ABOUT SECTION -->
+  
+  <!-- START MENU SECTION -->
+  
+  <section class="menu-section" id="menu">
+    <div class="row wow zoomIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
+	  <h2>Our <span class="Title-text">M</span>enu</h2>
+	  <p class="Littol-descipson">There are many variations of passages of Lorem Ipsum.</p>
+	</div>
+	<div class="row">
+	  <div class="portfolio-filter">
+	    <button type="button" data-filter="all">All</button>
+	    <button type="button" data-filter=".soup">Soup</button>
+	    <button type="button" data-filter=".salads">Salads</button>
+	    <button type="button" data-filter=".pasta">Pasta</button>
+	  </div>
+	</div>
+	<div class="row containear">
+	  <div class="col span_1_of_3 mix salads">
+	    <div class="Box">
+		  <img src="Custom/img/menu1.jpg" alt="menu-01" class="filter-img">
+		  <div class="box-content">
+		    <h3 class="Title">Spacial Salads</h3>
+			<ul class="Icon">
+			  <li><a href="Custom/img/menu1.jpg"><i class="fas fa-eye"></i></a></li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col span_1_of_3 mix soup">
+	    <div class="Box">
+		  <img src="Custom/img/menu2.jpg" alt="menu-02" class="filter-img">
+		  <div class="box-content">
+		    <h3 class="Title">Spacial Soup</h3>
+			<ul class="Icon">
+			  <li><a href="Custom/img/menu2.jpg"><i class="fas fa-eye"></i></a></li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col span_1_of_3 mix pasta">
+	    <div class="Box">
+		  <img src="Custom/img/menu3.jpg" alt="menu-03" class="filter-img">
+		  <div class="box-content">
+		    <h3 class="Title">Spacial Pasta</h3>
+			<ul class="Icon">
+			  <li><a href="Custom/img/menu3.jpg"><i class="fas fa-eye"></i></a></li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col span_1_of_3 mix salads">
+	    <div class="Box">
+		  <img src="Custom/img/menu4.jpg" alt="menu-04" class="filter-img">
+		  <div class="box-content">
+		    <h3 class="Title">Spacial Salads</h3>
+			<ul class="Icon">
+			  <li><a href="Custom/img/menu4.jpg"><i class="fas fa-eye"></i></a></li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col span_1_of_3 mix soup">
+	    <div class="Box">
+		  <img src="Custom/img/menu5.jpg" alt="menu-05" class="filter-img">
+		  <div class="box-content">
+		    <h3 class="Title">Spacial Soup</h3>
+			<ul class="Icon">
+			  <li><a href="Custom/img/menu5.jpg"><i class="fas fa-eye"></i></a></li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col span_1_of_3 mix pasta">
+	    <div class="Box">
+		  <img src="Custom/img/menu6.jpg" alt="menu-06" class="filter-img">
+		  <div class="box-content">
+		    <h3 class="Title">Spacial Pasta</h3>
+			<ul class="Icon">
+			  <li><a href="Custom/img/menu6.jpg"><i class="fas fa-eye"></i></a></li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </section>
+  
+  <!-- END MENU SECTION -->
+  
+  <!-- START EXPERT SECTION -->
+  
+  <section class="expert-section" id="expert">
+    <div class="row wow zoomIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
+	  <h2>Our Kitchen <span class="Title-text">E</span>xpert</h2>
+	  <p class="Littol-descipson">There are many variations of passages of Lorem Ipsum.</p>
+	</div>
+	<div class="row">
+	  <div class="col span_1_of_4 wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+	    <div class="expert-box">
+		  <img src="Custom/img/expert1.jpg" alt="expert-01">
+		  <h3>Someone Famous</h3>
+		</div>
+	  </div>
+	  <div class="col span_1_of_4 wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+	    <div class="expert-box">
+		  <img src="Custom/img/expert2.jpg" alt="expert-02">
+		  <h3>Someone Famous</h3>
+		</div>
+	  </div>
+	  <div class="col span_1_of_4 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+	    <div class="expert-box">
+		  <img src="Custom/img/expert3.jpg" alt="expert-03">
+		  <h3>Someone Famous</h3>
+		</div>
+	  </div>
+	  <div class="col span_1_of_4 wow fadeInLeft" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+	    <div class="expert-box">
+		  <img src="Custom/img/expert4.jpg" alt="expert-04">
+		  <h3>Someone Famous</h3>
+		</div>
+	  </div>
+	</div>
+  </section>
+  
+  <!-- END EXPERT SECTION -->
+  
+  <!-- START TESTIMONIAL SECTION -->
+  
+  <section class="testimonial-section" id="testimonial">
+    <div class="row wow zoomIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
+	  <h2>They <span class="Title-text">S</span>aid About Us</h2>
+	  <p class="Littol-descipson">There are many variations of passages of Lorem Ipsum.</p>
+	</div>
+	<div class="row">
+	  <div id="Testimonial" class="section-padding">
+	    <div class="testimonial-container">
+		  <div class="owl-carousel owl-theme">
+		    <div class="item">
+			  <div class="testimonial-item">
+			    <div class="img-thumb">
+				  <img src="Custom/img/testi1.jpg" alt="tes-01">
+				</div>
+				<div class="tes-content">
+				  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
+				  <h3>Someone Famous</h3>
+				</div>
+			  </div>
+			</div>
+			<div class="item">
+			  <div class="testimonial-item">
+			    <div class="img-thumb">
+				  <img src="Custom/img/testi2.jpg" alt="tes-02">
+				</div>
+				<div class="tes-content">
+				  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
+				  <h3>Someone Famous</h3>
+				</div>
+			  </div>
+			</div>
+			<div class="item">
+			  <div class="testimonial-item">
+			    <div class="img-thumb">
+				  <img src="Custom/img/testi3.jpg" alt="tes-03">
+				</div>
+				<div class="tes-content">
+				  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
+				  <h3>Someone Famous</h3>
+				</div>
+			  </div>
+			</div>
+			<div class="item">
+			  <div class="testimonial-item">
+			    <div class="img-thumb">
+				  <img src="Custom/img/testi1.jpg" alt="tes-01">
+				</div>
+				<div class="tes-content">
+				  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the.</p>
+				  <h3>Someone Famous</h3>
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </section>
+  
+  <!-- END TESTIMONIAL SECTION -->
+  
+  <!-- START CONTACT SECTION -->
+  
+  <section class="contact-section" id="contact">
+    <div class="row wow zoomIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
+	  <h2><span class="Title-text">C</span>ontact Us</h2>
+	  <p class="Littol-descipson">Chowmuhani, Noakhali, Bangladesh</p>
+	</div>
+	<div class="row">
+	  <div class="col span_1_of_2 wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
+	    <form action="php/phpcform.php" method="post">
+		  <div class="row">
+		    <div class="col span_1_of_2">
+			  <input type="text" name="name" id="name" placeholder="Your Name *" required>
+			</div>
+			<div class="col span_1_of_2">
+			  <input type="email" name="email" id="email" placeholder="Your Email *" required>
+			</div>
+		  </div>
+		  <div class="row">
+		    <input type="text" name="subject" id="subject" placeholder="Your Subject *" required>
+		  </div>
+		  <div class="row">
+		    <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Your Message *" required></textarea>
+		  </div>
+		  <div class="row">
+		    <input type="submit" name="send" id="send" value="Send Message" class="btn btn-submit">
+		  </div>
+		</form>
+	  </div>
+	  <div class="col span_1_of_2 wow zoomIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomIn;">
+	    <div class="contact-img">
+		  <img src="Custom/img/contact.jpg" alt="contact-img">
+		</div>
+	  </div>
+	</div>
+  </section>
+  
+  <!-- END CONTACT SECTION -->
+  
+  <!-- START FOOTER SECTION -->
+  
+  <footer class="footer-section">
+    <div class="row">
+	  <div class="col span_1_of_3 wow zoomIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: zoomIn;">
+	    <div class="column-01">
+		  <div class="row">
+		    <h3>Contact Us</h3>
+		  </div>
+		  <div class="row">
+		    <div class="address-info">
+			  <ul>
+			    <li><i class="fas fa-map-marker-alt"></i> Noakhali, Bangladesh</li>
+				<li><i class="fas fa-phone-volume"></i> 01846168944</li>
+				<li><i class="far fa-envelope"></i> mehrabhossen03@gmail.com<li>
+			  </ul>
+			</div>
+		  </div>
+		  <div class="row">
+		    <div class="footer-social">
+			  <a href="#"><i class="fab fa-facebook-f"></i></a>
+			  <a href="#"><i class="fab fa-twitter"></i></a>
+			  <a href="#"><i class="fab fa-instagram"></i></a>
+			  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col span_1_of_3 wow zoomIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
+	    <div class="column-02">
+		  <div class="row">
+		    <h3>Support</h3>
+		  </div>
+		  <div class="row">
+		    <ul class="footer-menu">
+			  <li><a href="#home">Home</a></li>
+			  <li><a href="#about">About</a></li>
+		      <li><a href="#menu">Menu</a></li>
+		      <li><a href="#expert">Expert</a></li>
+		      <li><a href="#testimonial">Testimonial</a></li>
+		      <li><a href="#contact">Contact</a></li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col span_1_of_3 wow zoomIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: zoomIn;">
+		  <div class="column-03">
+		    <div class="row">
+		      <h3>Newsletter</h3>
+			</div>
+			<div class="row">
+			  <div class="subscribe-form">
+			    <form action="#" method="post">
+				  <input type="email" placeholder="Your Email *" required>
+				  <input type="submit" value="Subscribe" class="btn btn-subscribe">
+				</form>
+			  </div>
+			</div>
+		  </div>
+	   </div>
+	  <div class="row">
+	    <div class="footer-img">
+		  <img src="Custom/img/footer-img.png" alt="footer-img">
+		</div>
+	  </div>
+	</div>
+  </footer>
+  
+  <!-- END FOOTER SECTION -->
+  
+  <!-- START FOOTER BOTTOM SECTION -->
+  
+  <footer class="footer-bottom">
+    <div class="row">
+	  <div class="footer-bottom-img wow zoomIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: zoomIn;">
+	    <img src="Custom/img/Footer-Logo.png" alt="footer-img">
+	  </div>
+	  <div class="copy-right wow zoomIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: zoomIn;">
+	    <p>Copyright &copy; 2020 <a href="index.html">Food Website.</a> All Right Reserved</p>
+	  </div>
+	</div>
+  </footer>
+  
+  <!-- END FOOTER BOTTOM SECTION -->
+  
+  <!-- START PAGEUP SECTION -->
+  <button id="topBtn"><i class="fas fa-angle-up"></i></button>
+  <!-- END PAGEUP SECTION -->
+  
+  <!-- Js File Link -->
+  <!-- Jquery Cdn By Google -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- Popup Image Gallery Js Cdn Link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <!-- Vendors All Js File -->
+  <script src="Vendors/js/html5shiv-printshiv.min.js"></script>
+  <script src="Vendors/js/respond.min.js"></script>
+  <script src="Vendors/js/selectivizr.js"></script>
+  <!-- Animate Owo Js File -->
+  <script src="Vendors/js/wow.min.js"></script>
+  <!-- Sticky Menu Js File -->
+  <script src="Vendors/js/jquery.waypoints.min.js"></script>
+  <!-- Mixit Up Js File -->
+  <script src="Vendors/js/mixitup.min.js"></script>
+  <!-- Owl Carousel Js File -->
+  <script src="Vendors/js/owl.carousel.min.js"></script>
+  <!-- Custom Js File -->
+  <script src="Custom/js/main.js"></script>
+  </body>
+</html>
